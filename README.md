@@ -23,6 +23,8 @@ There are two options for using the framey gem: using included scaffold code for
 
 ## Using the included scaffold	
 
+* At the moment, the generator only works for Rails 3
+
 Run the framey generator:
 
 `rails generate framey API_KEY API_SECRET`
