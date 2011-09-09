@@ -1,5 +1,5 @@
 module Framey
   require 'httparty'
-  require 'api'
-  require 'view_helpers'
+  require 'framey/api'
+  require 'framey/view_helpers'
 end
