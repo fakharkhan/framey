@@ -66,6 +66,10 @@ Create a framey initializer at config/framey.rb and modify the following code to
 	  FLASH_PLAYER_URL = 'http://framey.com/player.swf'
 	end
 
+When using rails 2, add the following line to app/helpers/application_helper.rb
+
+	include Framey::ViewHelpers
+
 # User / Development Flow
 
 * You make a page on your site that displays the Framey flash video recorder
