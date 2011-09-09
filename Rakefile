@@ -11,7 +11,6 @@ begin
     gem.files = Dir["{lib}/**/*"]
     gem.homepage = "http://framey.com"
     gem.add_dependency 'httparty'
-    gem.add_dependency 'will_paginate', '~> 3.0.0'
     gem.add_development_dependency 'jeweler'
   end
   Jeweler::GemcutterTasks.new
