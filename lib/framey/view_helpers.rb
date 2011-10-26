@@ -39,7 +39,7 @@ raw <<END_RECORDER
     'id': "#{objid}",
     'name': "#{objid}"
   };
-  swfobject.embedSWF('#{Framey::FLASH_RECORDER_URL}', "#{divid}", "340", "340", "8", "", flashvars, params, attributes);
+  swfobject.embedSWF('#{Framey::FLASH_RECORDER_URL}', "#{divid}", "320", "240", "8", "", flashvars, params, attributes);
   </script>
 END_RECORDER
     end

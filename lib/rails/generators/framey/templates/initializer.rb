@@ -5,7 +5,7 @@ module Framey
   SECRET = "API_SECRET_VALUE"
   API_TIMEOUT = 15
   MAX_TIME = 30
-  FLASH_RECORDER_URL = 'http://framey.com/recorder.swf'
+  FLASH_RECORDER_URL = 'http://framey.com/recorder2.swf'
   FLASH_PLAYER_URL = 'http://framey.com/player.swf'
 end
 
