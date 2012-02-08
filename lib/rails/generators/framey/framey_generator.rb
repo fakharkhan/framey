@@ -37,7 +37,7 @@ class FrameyGenerator < Rails::Generators::Base
     tmp.write migration
     tmp.close
 
-    migration_template  '../../../tmp/~migration_ready.rb',
+    migration_template  File.expand_path(tmp.path),
                         'db/migrate/create_framey_tables.rb'
     remove_file 'tmp/~migration_ready.rb'
   end
@@ -55,7 +55,7 @@ class FrameyGenerator < Rails::Generators::Base
       tmp.write initializer
       tmp.close
     
-      copy_file  '../../../tmp/~initializer_ready.rb',
+      copy_file  File.expand_path(tmp.path),
                           'config/initializers/framey.rb'
       remove_file 'tmp/~initializer_ready.rb'
     else
